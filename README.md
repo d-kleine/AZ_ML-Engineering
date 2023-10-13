@@ -13,7 +13,7 @@ Develop a comprehensive understanding of machine learning models, data privacy s
 - Programmatically creating and managing pipelines using the Azure ML SDK.
 - Automating machine learning processes with Hyperparameter Tuning and AutoML.
 
-### Operationalizing Machine Learning**
+### Operationalizing Machine Learning
 
 - Authorizing operations for machine learning.
 - Deploying machine learning models in Azure.
