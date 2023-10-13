@@ -16,6 +16,7 @@ This model is then compared to an Azure AutoML run.
 **In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
 
 This dataset contains data about direct marketing campaigns conducted by a banking institution. We seek to predict whether a client will subscribe to a term deposit based on the provided data.
+<img src="https://github.com/d-kleine/AZMLND/blob/dev/project1_Optimizing-an-ML-Pipeline/images/creating-and-optimizing-an-ml-pipeline.png">
 
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
 
