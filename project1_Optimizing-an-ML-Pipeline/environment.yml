@@ -1,0 +1,12 @@
+name: py362
+channels:
+  - defaults
+dependencies:
+  - python=3.6.2
+  - jupyter
+  - azureml-train-automl
+  - azureml-data-dataset-factory
+  - azureml-core
+  - azureml-widgets
+  - azureml-train-sklearn
+  - azureml-train-hyperdrive
