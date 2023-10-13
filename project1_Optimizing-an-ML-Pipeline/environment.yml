@@ -10,3 +10,4 @@ dependencies:
   - azureml-widgets
   - azureml-train-sklearn
   - azureml-train-hyperdrive
+  - xgboost
