@@ -69,5 +69,4 @@
 # Waiting:       92  137  28.3    151     176
 # Total:        114  160  28.0    172     199#
 
-
- ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer REPLACE_WITH_KEY' http://REPLACE_WITH_API_URL/score
+ ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer O1XLQD6Nw8ZBPt23MXcL5mCw5tdKNMRQ' http://e677c858-5815-432f-bbf6-993d28254e5d.westeurope.azurecontainer.io/score
