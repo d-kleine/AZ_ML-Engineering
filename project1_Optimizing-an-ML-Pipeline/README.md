@@ -83,7 +83,7 @@ The *HyperDrive* model used Logistic Regression with hyperparameter tuning and a
 ## Future work
 
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
-- To enhance the performance of the Logistic Regression model, it's advisable to consider applying **feature scaling, even though this type of model typically doesn't require it. Scaling may facilitate model convergence and optimization, leading to improved accuracy.
+- To enhance the performance of the Logistic Regression model, it's advisable to consider applying feature scaling, even though this type of model typically doesn't require it. Scaling may facilitate model convergence and optimization, leading to improved accuracy.
 
 - The dataset exhibits a significant class imbalance, with only 11.2% of positive samples out of the total set. To better evaluate model performance, alternative performance metrics such as F1-score or AUC should be used, as they account for the performance of the model in each class separately. Techniques like resampling (e.g., downsampling the majority class or oversampling the minority class) should be explored to address the class imbalance.
 
