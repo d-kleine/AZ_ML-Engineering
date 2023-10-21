@@ -29,45 +29,56 @@ The project comprised several key tasks:
 #### AutoML Settings:
 
 * **n_cross_validations: 2**
-    This setting specifies the number of cross-validations to perform during the training process. Cross-validation helps assess the model's generalization performance.
+
+    * This setting specifies the number of cross-validations to perform during the training process. Cross-validation helps assess the model's generalization performance.
 
 * **primary_metric: 'accuracy'**
-    The primary metric is set to 'accuracy,' which is a common evaluation metric for classification tasks. It measures the ratio of correctly predicted instances to the total instances.
+
+    * The primary metric is set to 'accuracy,' which is a common evaluation metric for classification tasks. It measures the ratio of correctly predicted instances to the total instances.
 
 * **enable_early_stopping: True**
-    Enabling early stopping allows the AutoML process to terminate if the performance improvement is not significant, which can save time and resources.
+
+    * Enabling early stopping allows the AutoML process to terminate if the performance improvement is not significant, which can save time and resources.
 
 * **max_concurrent_iterations: 4**
-    This setting controls the maximum number of iterations to run concurrently. It can help manage resource usage effectively.
+
+    * This setting controls the maximum number of iterations to run concurrently. It can help manage resource usage effectively.
 
 * **experiment_timeout_minutes: 20**
-    The experiment timeout, set to 20 minutes, defines the maximum time for the AutoML experiment to run. If the experiment does not complete within this time, it will terminate.
+
+    * The experiment timeout, set to 20 minutes, defines the maximum time for the AutoML experiment to run. If the experiment does not complete within this time, it will terminate.
 
 * **verbosity: logging.INFO**
-    The verbosity level is set to 'INFO,' which provides detailed logging information during the AutoML run. This can be useful for monitoring and debugging.
+
+    * The verbosity level is set to 'INFO,' which provides detailed logging information during the AutoML run. This can be useful for monitoring and debugging.
 
 #### AutoML Configuration:
 
-* **compute_target: 'compute_target'**
-    The 'compute_target' specifies the Azure Machine Learning compute target on which the AutoML experiment is executed. It ensures the experiment runs on the selected compute resource.
+* **compute_target:The 'compute_target' specifies the Azure Machine Learning compute target on which the AutoML experiment is executed. It ensures the experiment runs on the selected compute resource.
 
 * **task: 'classification'**
-    The task is defined as 'classification,' indicating that this is a binary classification problem where the goal is to predict whether a patient will experience a death event ('DEATH_EVENT').
+
+    * The task is defined as 'classification,' indicating that this is a binary classification problem where the goal is to predict whether a patient will experience a death event ('DEATH_EVENT').
 
 * **training_data: 'dataset'**
-    The 'dataset' variable refers to the training dataset that contains the clinical features and the target variable.
+
+    * The 'dataset' variable refers to the training dataset that contains the clinical features and the target variable.
 
 * **label_column_name: 'DEATH_EVENT'**
-    'DEATH_EVENT' is set as the label column name, indicating the target variable to be predicted by the model.
+
+    * 'DEATH_EVENT' is set as the label column name, indicating the target variable to be predicted by the model.
 
 * **featurization: 'auto'**
-    Featurization is set to 'auto,' which means that feature engineering and transformation will be performed automatically by AutoML.
+
+    * Featurization is set to 'auto,' which means that feature engineering and transformation will be performed automatically by AutoML.
 
 * **debug_log: "automl_errors.log"**
-    The 'debug_log' parameter specifies the log file where any errors or debugging information during the AutoML run will be stored for reference.
+
+    * The 'debug_log' parameter specifies the log file where any errors or debugging information during the AutoML run will be stored for reference.
 
 * **enable_onnx_compatible_models: False**
-    The setting to enable ONNX-compatible models is turned off, meaning that the output model will not be in the ONNX format.
+
+    *  The setting to enable ONNX-compatible models is turned off, meaning that the output model will not be in the ONNX format.
 
 These settings and configurations ensure that the AutoML experiment is conducted with the specified parameters and on the designated compute target, following best practices for a classification task.
 
