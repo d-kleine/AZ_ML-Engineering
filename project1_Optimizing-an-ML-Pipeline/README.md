@@ -5,6 +5,8 @@ This project is part of the Udacity Azure ML Nanodegree.
 In this project, we build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model.
 This model is then compared to an Azure AutoML run.
 
+![](images\creating-and-optimizing-an-ml-pipeline.png)
+
 ## Useful Resources
 - [ScriptRunConfig Class](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.scriptrunconfig?view=azure-ml-py)
 - [Configure and submit training runs](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-set-up-training-targets)
@@ -28,6 +30,7 @@ The best performing AutoML model was a `VotingEnsemble`, which is an ensemble of
 The pipeline architecture involves creating, training, and optimizing a ML model to solve a classification problem. The pipeline architecture consists of the following components:
 
 1. **Data Handling**: The project starts with the creation of a `TabularDatasetFactory` from an online CSV file, providing access to the dataset.
+
 
 2. **Data Preprocessing**: The dataset undergoes data preprocessing, including cleaning and encoding categorical data into numeric format. Techniques such as one-hot encoding and ordinal encoding are applied as needed.
 

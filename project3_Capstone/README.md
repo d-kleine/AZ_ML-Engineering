@@ -1,24 +1,44 @@
 # Heart Failure Prediction with AzureML
 
 In this AzureML project, I had the opportunity to leverage the capabilities of Azure Machine Learning to tackle an intriguing problem. The main objective of this project was to create and compare two machine learning models: one using Automated Machine Learning (AutoML) and the other a custom model with hyperparameters tuned using HyperDrive. The task at hand was to predict heart failure based on a set of clinical features using an external dataset.
-Dataset
+
+### Dataset
 
 For this project, I chose the Heart Failure Prediction dataset, which contains medical records of 299 patients who had experienced heart failure. Each patient profile consists of 13 clinical features, including age, ejection fraction, serum creatinine, and more. This dataset, characterized by its multivariate nature, was ideal for a classification task.
 
 ### Task
 The project comprised several key tasks:
 
+![Worflow diagram](images/capstone-diagram.png)
+
 * **Data Preparation**: I started by importing and preparing the Heart Failure Prediction dataset for model training. Data preprocessing was essential to ensure the quality and suitability of the dataset for machine learning.
+![Storage](images/dataset/storage.png)
+![Dataset](images/dataset/dataset.png)
 
 * **AutoML Model**: I used the AutoML capabilities of AzureML to create an automated machine learning model. AutoML helped identify the best algorithm and configuration for the given task.
+![AutoML pipeline](images/automl/automl_pipeline.png)
+![AutoML runs](images/automl/automl_experiment_runs.png)
+![AutoML best model](images/automl/automl_best_model.png)
+![AutoML best model metrics](images/automl/automl_best_model_metrics.png)
+![AutoML best model params](images/automl/automl_best_model_details.png)
 
 * **HyperDrive Model**: For the custom model, I utilized HyperDrive to tune the hyperparameters of a selected machine learning algorithm. This allowed for optimizing the model's performance.
+![HyperDrive pipeline](images/hyperdrive/hyperdrive_pipeline.png)
+![HyperDrive runs](images/hyperdrive/hd_experiment_runs.png)
+![HyperDrive best model](images/hyperdrive/best_hd_model.png)
+![HyperDrive best model metrics](images/hyperdrive/best_hd_model_metrics.png)
+![HyperDrive best model trials](images/hyperdrive/best_hd_model_trials.png)
 
 * **Model Comparison**: After creating both models, I compared their performance using appropriate evaluation metrics, such as accuracy, precision, and recall.
+![Experiments](images/jobs/experiments_overview.png)
+![Registered best model](images/models/best_model_registered.png)
 
 * **Model Deployment**: The best-performing model was deployed as a web service, making it accessible for real-time predictions.
+![Webapp endpoint](images/endpoint/webapp.png)
+![Application insights](images/endpoint/app_insights.png)
 
 * **Testing the Web Service**: To ensure the deployed web service was functioning as expected, I tested it with sample data.
+![Test endpoint](images/endpoint/api_schema.png)
 
 ### Access
 * **Dataset Upload in Azure ML Studio**: I uploaded the dataset to Azure ML Studio from a local file. The dataset, named "heart_failure_clinical_records_dataset.csv," was also made available on GitHub for reference.
