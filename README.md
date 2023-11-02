@@ -1,5 +1,7 @@
 # Machine Learning Engineering with Microsoft Azure
 
+![Azure Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/1280px-Microsoft_Azure_Logo.svg.png)
+
 Develop a comprehensive understanding of machine learning models, data privacy safeguards, and effective end-to-end management of the machine learning lifecycle at scale using Azure Machine Learning's MLOps capabilities.
 
 ## Program structure
