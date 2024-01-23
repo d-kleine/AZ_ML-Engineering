@@ -74,7 +74,9 @@ The project comprised several key tasks:
 
 #### AutoML Configuration:
 
-* **compute_target:The 'compute_target' specifies the Azure Machine Learning compute target on which the AutoML experiment is executed. It ensures the experiment runs on the selected compute resource.
+* **compute_target**
+
+   * The 'compute_target' specifies the Azure Machine Learning compute target on which the AutoML experiment is executed. It ensures the experiment runs on the selected compute resource.
 
 * **task: 'classification'**
 
