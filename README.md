@@ -15,6 +15,8 @@ Develop a comprehensive understanding of machine learning models, data privacy s
 - Programmatically creating and managing pipelines using the Azure ML SDK.
 - Automating machine learning processes with Hyperparameter Tuning and AutoML.
 
+  → [Project: Optimizing an ML Pipeline](https://github.com/d-kleine/AZ_ML-Engineering/tree/main/project1_Optimizing-an-ML-Pipeline)
+
 ### Operationalizing Machine Learning
 
 - Authorizing operations for machine learning.
@@ -23,6 +25,12 @@ Develop a comprehensive understanding of machine learning models, data privacy s
 - Creating batch inference pipelines and publishing them.
 - Applying DevOps concepts for model deployment.
 - Configuring and deploying a cloud-based machine learning production model using Azure.
+
+  → [Project: Operationalizing-ML (MLOps)](https://github.com/d-kleine/AZ_ML-Engineering/tree/main/project2_Operationalizing-ML)
+
+### Capstone project
+* Combining all skills acquired in this program for a self-choosen ML project
+  → [Capstone project: Heart Failure Prediction with AzureML](https://github.com/d-kleine/AZ_ML-Engineering/tree/main/project3_Capstone)
 
 ## Skills
 
